@@ -7,15 +7,17 @@ html, body {
 body {
   margin: 0 0 2rem;
   font-family: Arial, sans-serif;
+  font-size: 10pt;
   color: #1c1b1b;
   background: #FFFFFF;
 }
 
 .top-nav {
   width: 100%;
-  background: rgba(62,150,124,.73);
+  background: #4be8aa;
   border: solid 1px #e7ecf4;
   color: #fffcfd;
+  font-size: 12pt;
 }
 
 .nav-list {
@@ -38,11 +40,11 @@ body {
 #main {
 width: 900px;
 min-height: 500px;
-background: #cec6d5;
+background: #f0f0f0;
 }
 
 #card--container1 {
-  margin: 1em;
+  margin: 1.5em 1em;
   width: 300px;
   height: 400px;
   float:left;
@@ -50,5 +52,11 @@ background: #cec6d5;
 }
 
 .card--content1 {
+padding: 1em;
+width: auto;
+}
 
+.card__title {
+  font-size: 1.5rem;
+  margin: 0;
 }
