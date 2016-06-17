@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0 0 2rem;
+  font-family: helvetica, sans-serif;
+  font-size: 10pt;
+  color: #1c1b1b;
+  background: #fff;
+}
+
+.top-nav {
+  width: 100%;
+  background: #7ee6cb;
+  border: solid 1px #e7ecf4;
+  color: #fffcfd;
+  font-size: 12pt;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list__item {
+  margin: 1rem 0.8rem;
+}
+
+.nav-list__item--brand {
+  flex: 1;
+
+  font-weight: bold;
+}
+
+main {
+margin: 2rem auto;
+width: 100%;
+background: #fff;
+overflow: auto;
+display: inline-block;
+
+}
+
+.card--holder {
+margin: 0 auto;
+overflow: auto;
+width: 65%;
+
+
+}
+
+.card--container1 {
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem 1rem;
+  height: 90%;
+  background: #fff;
+  box-shadow: 0 0.6rem 0.6rem 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  border-radius: 0.4em;
+  overflow: auto;
+
+}
+
+.card--content1 {
+width: auto;
+padding: 1.5rem;
+overflow: auto;
+
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5em 0.5em 0 0;
+
+}
+
+.card__title {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+  border-width: 0;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #535353;
+}
+
+.card__title p {
+  margin: 0 0 2rem 0;
+}
+
+.submit {
+background: #7ee6cb;
+color: #535353;
+float: right;
+padding: 0.4rem 0.6rem;
+margin: 0.8rem 0;
+border-radius: 0.3rem;
+}
+
+.cancel {
+background: #535353;
+color: #fff;
+float: left;
+padding: 0.4rem 0.6rem;
+margin: 0.8rem 0;
+border-radius: 0.3rem;
+}
