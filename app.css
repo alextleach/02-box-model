@@ -1,10 +1,9 @@
-
 * {
   margin: 0;
 }
 body {
   margin: 0 0 2rem;
-  font-family: arial, sans-serif;
+  font-family: helvetica, sans-serif;
   font-size: 10pt;
   color: #1c1b1b;
   background: #fff;
@@ -79,15 +78,16 @@ img {
 
 .card__title {
   font-size: 1.3rem;
-  margin: 0;
-}
-.hr__cardcontent {
+  line-height: 2rem;
+  margin: 1rem 0;
   border-width: 0;
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
   border-bottom-color: #535353;
-  width: 95%;
-  margin: 1rem 0;
+}
+
+.card__title p {
+  margin: 0 0 2rem 0;
 }
 
 .submit {
